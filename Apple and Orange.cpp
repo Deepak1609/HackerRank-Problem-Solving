@@ -20,13 +20,16 @@ vector<string> split(const string &);
 
 void countApplesAndOranges(int s, int t, int a, int b, vector<int> apples, vector<int> oranges) {
     int fA = 0, fO = 0;
-    for(int i = 0; i<apples.size(), i<oranges.size(); i++)
+    for(int i = 0; i<apples.size(); i++)
     {
         apples[i]=apples[i]+a;
         if(apples[i]>= s && apples[i]<=t)
         {
             fA+=1;
         }
+    }
+    for(int i =0; i<oranges.size(); i++)
+    {
         oranges[i]=oranges[i]+b;
         if(oranges[i]>=s && oranges[i]<=t)
         {
