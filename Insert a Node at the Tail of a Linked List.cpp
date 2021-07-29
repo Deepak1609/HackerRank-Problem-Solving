@@ -20,7 +20,6 @@ class SinglyLinkedList {
         SinglyLinkedList() {
             this->head = nullptr;
         }
-
 };
 
 void print_singly_linked_list(SinglyLinkedListNode* node, string sep, ofstream& fout) {
